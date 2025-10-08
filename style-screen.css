@@ -1,0 +1,59 @@
+@media only screen and (min-device-width: 300px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)
+{
+
+    *{
+        outline: solid 1px rebeccapurple;
+    }
+
+    #header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    #titulo-contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100%;
+    
+        /*background-color: #001220;
+        width: 100%;*/
+    }
+
+    #logo-utn{
+        width: 20px;
+        height: 20px;
+    }
+
+    #nombre-contenedor{
+        margin:0;
+        flex-shrink: 1;
+    }
+
+    .letra-svg{
+        width: 20px;
+        margin: 1px
+    }
+
+    #contenedor-padre{
+        height: 100vh;
+    }
+
+    .contenedor-hijo{
+        width: 30vw;
+        height: 50%;
+    }
+
+    #user-pic{
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 50vw;
+        height: 10vh;
+    }
+
+}

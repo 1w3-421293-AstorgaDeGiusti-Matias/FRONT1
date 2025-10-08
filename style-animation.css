@@ -1,0 +1,96 @@
+@keyframes salto {
+    0%{
+        scale: 1
+    }
+
+    50%{
+        scale: 1.5
+    }
+
+    100%{
+        scale: 1
+    }
+}
+
+.letra-svg{
+    animation: salto 2s infinite ease-in;
+}
+
+#L2{
+    animation-delay: 100ms;
+}
+
+#L3{
+    animation-delay: 200ms;
+}
+
+#L4{
+    animation-delay: 300ms;
+}
+
+#L5{
+    animation-delay: 400ms;
+}
+
+#L6{
+    animation-delay: 500ms;
+}
+
+#L7{
+    animation-delay: 600ms;
+}
+
+#L8{
+    animation-delay: 700ms;
+}
+
+#L9{
+    animation-delay: 800ms;
+}
+
+#L10{
+    animation-delay: 900ms;
+}
+
+#L11{
+    animation-delay: 1000ms;
+}
+
+#L12{
+    animation-delay: 1100ms;
+}
+
+/* --- ANIMACIÓN IMAGEN ---*/
+
+@keyframes morph {
+
+    0%{
+        background-image: url(/WhatsApp\ Image\ 2025-10-07\ at\ 21.14.31.jpeg);
+    }
+
+    50%{
+        background-image: url(/Gv_8UyrWAAAdZt1.jpeg);
+    }
+
+    100%{
+        background-image: url(/WhatsApp\ Image\ 2025-10-07\ at\ 21.14.31.jpeg);
+    }
+    
+}
+
+#user-pic{
+    animation: morph  10s infinite ease;
+}
+
+/*--- ANIMACIÓN HOVER ---*/
+
+.contenedor-hijo{
+    box-shadow: 0 0 0 0;
+    transition: 400ms;
+}
+
+.contenedor-hijo:hover{
+    box-shadow: 10px 10px 100px 10px;
+    scale: 1.03;
+    transition: 400ms;
+}
