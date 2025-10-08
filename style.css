@@ -1,4 +1,11 @@
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+
 body {
+    height: 100vh;
+
     display: flex;
     flex-flow: column;
 
@@ -11,39 +18,67 @@ body {
     color: antiquewhite;
 }
 
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#hhh{
-transition: 2s;
+#titulo-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
 
+    /*background-color: #001220;
+    width: 100%;*/
 }
 
-#hhh:hover{
-    color: rebeccapurple;
-    scale: 1.1;
+#logo-utn{
+    width: 50px;
+    height: 50px;
 
-    transition: 2s;
+    position: sticky;
+    top: 10px;
+    z-index: 10;
 }
+
+.letra-svg{
+    width: 50px;
+    margin: 8px
+}
+
+#nombre-contenedor{
+    margin-right: 50px;
+}
+
 
 .contenedor-padre{
-    display: grid;
-    grid-template: 5em 5em 5em / 10em 10em;
-    justify-content: space-around;
-    align-content: center;
-    background-color: transparent;
-    gap: 20em;
+    display: flex;
+    flex-flow: column;
 
-    height: 1000px;
-    width: 1000px;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+    
+    height: 50vh;
+    width: 60vw;
 
 }
 
 .contenedor-hijo{
 
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 800px;
+    border-radius: 5%;
+
+    margin: 10px;
 
     display: flex;
     flex-wrap: wrap;
@@ -51,11 +86,18 @@ transition: 2s;
     align-content: center;
     justify-content: center;
 
-    border-radius: 100%;
-
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+#user-pic{
+
+    width: 500px;
+    height: 500px;
+
+    background-size: cover;
+}
+
+/*
 img{
     height: 100%;
     width: 300px;
@@ -73,14 +115,4 @@ img:hover{
     background-size: cover;
 
 }
-
-
-.animation{
-    transition: 2s;
-}
-.animation:hover{
-    transition: 2s;
-    scale: 1.1
-
-
-}
+*/
