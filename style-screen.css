@@ -1,27 +1,32 @@
 @media only screen and (min-device-width: 300px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)
 {
 
-    *{
-        outline: solid 1px rebeccapurple;
-    }
-
     #header{
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         align-content: center;
+
+        padding: 10px;
     }
+
 
     #titulo-contenedor{
         display: flex;
         justify-content: center;
         align-items: center;
 
-        height: 100%;
-    
+        margin:  0;
+
+        height: 100%;    
         /*background-color: #001220;
         width: 100%;*/
+    }
+    #contenedor-utn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #logo-utn{
@@ -35,25 +40,26 @@
     }
 
     .letra-svg{
+        height: 20px;
         width: 20px;
         margin: 1px
     }
 
-    #contenedor-padre{
-        height: 100vh;
+    .contenedor-padre{
+        height: 200vh;
     }
 
     .contenedor-hijo{
-        width: 30vw;
-        height: 50%;
+        width: 50vw;
+        height: 30vh;
     }
 
     #user-pic{
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        width: 50vw;
-        height: 10vh;
+        width: 100%;
+        height: 100%;
     }
 
 }
