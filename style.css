@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-flow: column;
+
+    align-items: center;
+
+    background-image: url(/layered-waves-haikei\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: antiquewhite;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hhh{
+transition: 2s;
+
+}
+
+#hhh:hover{
+    color: rebeccapurple;
+    scale: 1.1;
+
+    transition: 2s;
+}
+
+.contenedor-padre{
+    display: grid;
+    grid-template: 5em 5em 5em / 10em 10em;
+    justify-content: space-around;
+    align-content: center;
+    background-color: transparent;
+    gap: 20em;
+
+    height: 1000px;
+    width: 1000px;
+
+}
+
+.contenedor-hijo{
+
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    flex-wrap: wrap;
+   
+    align-content: center;
+    justify-content: center;
+
+    border-radius: 100%;
+
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+img{
+    height: 100%;
+    width: 300px;
+    border-radius: 100%;
+    cursor: pointer;
+    background-image: url(Gv_8UyrWAAAdZt1.jpeg);
+    background-size: contain;
+}
+
+img:hover{
+    transition: 2s;
+    background-image: url(WhatsApp\ Image\ 2025-10-07\ at\ 21.14.31.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.animation{
+    transition: 2s;
+}
+.animation:hover{
+    transition: 2s;
+    scale: 1.1
+
+
+}
