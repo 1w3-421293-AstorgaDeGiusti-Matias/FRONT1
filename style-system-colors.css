@@ -1,0 +1,26 @@
+:root {
+  color-scheme: light dark; /* Indicates support for both light and dark modes */
+}
+
+
+/* Fondo para modo claro */
+@media (prefers-color-scheme: light) {
+  body {
+    background-image: url(/layered-waves-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+}
+
+/* Fondo para modo oscuro */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: url(/layered-waves-haikei-3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+}
