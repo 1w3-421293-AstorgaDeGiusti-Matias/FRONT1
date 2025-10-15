@@ -82,6 +82,13 @@
     animation: morph  10s infinite ease;
 }
 
+/* IMAGEN */
+
+.contenedor-hijo:hover #user-pic{
+    background-image: url(/FOTO2.jpeg);
+    animation: none;
+}
+
 /*--- ANIMACIÓN HOVER ---*/
 
 .contenedor-hijo{
@@ -172,3 +179,5 @@
     content: url(/trans-chicken-walking.gif);
     transition: 3s;
 }
+
+

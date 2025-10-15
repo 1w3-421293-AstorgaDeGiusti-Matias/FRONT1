@@ -17,10 +17,12 @@
 /* Fondo para modo oscuro */
 @media (prefers-color-scheme: dark) {
   body {
-    background-image: url(/layered-waves-haikei-3.svg);
+    background-image: url(/layered-waves-haikei-dark.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+
+
   }
 }
