@@ -176,7 +176,7 @@
     
     color:aqua;
     height: 300px;
-    content: url(/trans-chicken-walking.gif);
+    content: url(./trans-chicken-walking.gif);
     transition: 3s;
 }
 
