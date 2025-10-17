@@ -65,15 +65,15 @@
 @keyframes morph {
 
     0%{
-        background-image: url(/WhatsApp-Image-2025.jpeg);
+        background-image: url(./WhatsApp-Image-2025.jpeg);
     }
 
     50%{
-        background-image: url(/Gv_8UyrWAAAdZt1.jpeg);
+        background-image: url(./Gv_8UyrWAAAdZt1.jpeg);
     }
 
     100%{
-        background-image: url(/WhatsApp-Image-2025.jpeg);
+        background-image: url(./WhatsApp-Image-2025.jpeg);
     }
     
 }
@@ -85,7 +85,7 @@
 /* IMAGEN */
 
 .contenedor-hijo:hover #user-pic{
-    background-image: url(/FOTO2.jpeg);
+    background-image: url(./FOTO2.jpeg);
     animation: none;
 }
 
